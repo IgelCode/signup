@@ -10,7 +10,7 @@
 <body>
     <div class="container-left">
         <div class="logowrapper">
-            <div class="logo"><img src="./img/yoga.png" style="width: 90%; margin-left: 0;"></div>
+            <div class="logo"><img src="./img/yoga.png" style="width: 75%; margin-left: 0;"></div>
             <div class="logotext"></div>
     </div>
     <div id="headline">&#9825; Kreatreat &#9825;</div>
@@ -18,35 +18,40 @@
         
 
     <div class="container-right">
-        <form>
+        <form action="" method="post" class="retreat-form">
             <div class="first">
-            <p>Das hier ist kein reales Anmeldeformular! Es ist lediglich ein Test.</p>
+            <p>Das hier ist kein echtes Anmeldeformular! Es ist lediglich ein Test.</p>
             <p>Trotzdem weißt Du, dass Du ein Retreat schon immer mal machen wolltest. </p>
-            <p>Deshalb ist <em>jetzt</em> genau der richtige Moment dich anzumelden!</p>
+            <p>Deshalb ist genau <em>jetzt</em> der richtige Zeitpunkt dich anzumelden!</p>
             <br>
             <p>Du <em>weißt</em>, Du willst es.</p>
         </div>
         <div class="second">
 <fieldset>
-    <legend>Let's do this!</legend>
-
-    <label for="firstname">Vorname</label>
-    <input type="text" id="firstname">
-    <label for="lastname">Nachname</label>
-    <input type="text" id="lastname">
-    <label for="email">Email</label>
-    <input type="email" id="email">
-    <label for="number">Telefonnummer</label>
-    <input type="number" id="number">
-    <label for="password">First Name</label>
+    <legend>Auf geht's!</legend><br>
+<div class="row1">
+    <label for="firstname">VORNAME</label>
+    <input type="text" id="firstname"><br>
+    <label for="email">EMAIL</label>
+    <input type="email" id="email"><br>
+    <label for="password">PASSWORT</label>
     <input type="password" id="password">
-    <label for="confirmpw">First Name</label>
-    <input type="password" id="confirmpw">
+</div>
 
+<div class="row2">
+    <label for="lastname">NACHNAME</label>
+    <input type="text" id="lastname"><br>
+    <label for="number">TELEFONNUMMER</label>
+    <input type="number" id="number"><br>
+    <label for="confirmpw">PASSWORT BESTÄTIGEN</label>
+    <input type="password" id="confirmpw">
+</div>
 </fieldset>
         </div>
 
-        <div class="third">test</div>
+        <div class="third">
+            <button type="submit">Account erstellen</button>
+        </div>
         </form>
 
 

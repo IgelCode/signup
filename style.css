@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url("./img/color.jpg");
-  width: 30vw;
+  width: 35vw;
 }
 .logowrapper {
   background: rgba(0, 206, 209, 0.7);
@@ -43,7 +43,7 @@ body {
   color: rgb(249, 252, 72);
 }
 .container-right {
-  width: 70vw;
+  width: 65vw;
   display: flex;
 }
 
@@ -64,16 +64,60 @@ p {
   font-size: 20px;
   font-weight: 600;
   height: 33vh;
+  line-height: 30px;
 }
 .second {
   padding: 50px;
   height: 33vh;
+  text-align: left;
+  display: flex;
 }
 .third {
   background-color: rgb(240, 240, 240);
   padding: 50px;
   height: 33vh;
+  text-align: left;
 }
 fieldset {
-  display: inline-block;
+  display: flex;
+  border: none;
+}
+legend {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+label,
+input {
+  display: block;
+}
+label {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+input {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 20vw;
+  height: 3vh;
+}
+input:hover {
+  border-color: blue;
+}
+.row2 {
+  margin-left: 50px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }
