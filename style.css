@@ -122,7 +122,7 @@ input:invalid + span:after {
   border-color: red;
 }
 .pw {
-  font-size: 10px;
+  font-size: 12px;
   color: red;
   margin-top: -20px;
 }
